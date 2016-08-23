@@ -1,0 +1,34 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+    ]
+    themes: [
+      "seti-ui"
+      "duotone-dark-sea-syntax"
+    ]
+  "exception-reporting":
+    userId: "d824dde4-eb6e-7a4f-68b7-2a48f7bfb9b3"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  nuclide:
+    "nuclide-file-tree":
+      hideIgnoredNames: false
+    "nuclide-flow":
+      excludeOtherAutocomplete: true
+  "seti-ui":
+    compactView: true
+  welcome:
+    showOnStartup: false

@@ -13,6 +13,7 @@ brew linkapps
 
 apps=(
   bash-completion2
+  clojure
   coreutils
   cmake
   dockutil
@@ -23,6 +24,7 @@ apps=(
   hub
   imagemagick
   python
+  ruby
   tree
   vim
   wget

@@ -15,9 +15,11 @@ apps=(
   docker
   emacs
   hyperterm
+  java
   iterm2
   karabiner
   mindnode-pro
+  minikube
   firefox
   github
   glimmerblocker
