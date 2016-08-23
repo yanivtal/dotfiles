@@ -29,6 +29,7 @@ ln -sfv "$DOTFILES_DIR/runcom/.spacemacs" ~
 
 if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/brew-cask.sh"
+  ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 fi
 
 # Run tests

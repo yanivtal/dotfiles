@@ -23,6 +23,7 @@ apps=(
   grep --with-default-names
   hub
   imagemagick
+  mackup
   python
   ruby
   tree
