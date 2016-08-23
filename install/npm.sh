@@ -7,17 +7,14 @@ nvm alias default 5
 # Globally install with npm
 
 packages=(
-  diff-so-fancy
+  http-server
   grunt
   gulp
-  http-server
+  flow
   nodemon
-  release-it
-  spot
+  react-native
   svgo
-  tldr
   underscore-cli
-  vtop
 )
 
 npm install -g "${packages[@]}"

@@ -3,36 +3,26 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap homebrew/versions
 brew tap homebrew/dupes
-brew tap Goles/battery
+brew tap d12frosted/emacs-plus
 brew update
 brew upgrade
 
+brew install emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
+brew linkapps
 # Install packages
 
 apps=(
   bash-completion2
-  bats
-  battery
   coreutils
   cmake
   dockutil
   ffmpeg
-  fasd
-  gifsicle
   git
   gnu-sed --with-default-names
   grep --with-default-names
   hub
-  httpie
   imagemagick
-  jq
-  mackup
-  peco
-  psgrep
   python
-  shellcheck
-  ssh-copy-id
-  svn
   tree
   vim
   wget
