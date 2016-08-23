@@ -13,21 +13,18 @@ brew linkapps
 
 apps=(
   bash-completion2
-  clojure
+  bats
+  boot-clj
+  leiningen
+  planck
   coreutils
   cmake
   dockutil
   ffmpeg
   git
-  gnu-sed --with-default-names
-  grep --with-default-names
   hub
-  imagemagick
   mackup
-  python
-  ruby
   tree
-  vim
   wget
   wifi-password
 )

@@ -12,6 +12,7 @@ packages=(
   gulp
   flow
   nodemon
+  react
   react-native
   svgo
   underscore-cli

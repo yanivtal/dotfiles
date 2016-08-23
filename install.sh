@@ -24,7 +24,6 @@ ln -sfv "$DOTFILES_DIR/runcom/.spacemacs" ~
 . "$DOTFILES_DIR/install/brew.sh"
 . "$DOTFILES_DIR/install/bash.sh"
 . "$DOTFILES_DIR/install/npm.sh"
-. "$DOTFILES_DIR/install/pip.sh"
 . "$DOTFILES_DIR/install/atom.sh"
 
 if [ "$(uname)" == "Darwin" ]; then
@@ -34,7 +33,7 @@ fi
 
 # Run tests
 
-bats test/*.bats
+# bats test/*.bats
 
 # Install extra stuff
 
